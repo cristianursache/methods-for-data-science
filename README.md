@@ -6,19 +6,19 @@ Implementations of various ML algorithms and methods (using numpy only) and thei
 
 `Linear regression` - implemented using normal equations.
 
-`Ridge regression` - implemented using normal equations; includes cross-validation for hyperparameter optimisation ( $\lambda$ ).
+`Ridge regression` - implemented using normal equations; includes cross-validation for hyperparameter optimisation (regularisation parameter $\lambda$).
 
-`Relaxation of LASSO regression` - implemented using gradient descent; includes cross-validation for hyperparameter optimisation ( $\lambda$ ).
+`Relaxation of LASSO regression` - implemented using gradient descent; includes cross-validation for hyperparameter optimisation (regularisation parameter $\lambda$).
 
 **Use case**: predict toxicity level of chemical substances (continuous target).
 
 ### 1.2. Classification task: kNN, random forest, SVM.
 
-`kNN` - implemented using Euclidean distance as distance function; includes cross-validation for hyperparameter optimisation ( $k$ ).
+`kNN` - implemented using Euclidean distance as distance function; includes cross-validation for hyperparameter optimisation (number of neighbours $k$).
 
-`Random forest` - implemented using cross-entropy as loss function; includes cross-validation for hyperparameter optimisation (number of trees, max depth).
+`Random forest` - implemented using cross-entropy as loss function; includes cross-validation for hyperparameter optimisation (number of trees, max depth of trees).
 
-`SVM` - implemented using SGD; includes cross-validation for hyperparameter optimisation ( $\lambda$ ) and ROC curve.
+`SVM` - implemented using SGD; includes cross-validation for hyperparameter optimisation (hardness parameter $\lambda$) and ROC curve.
 
 **Use case**: predict whether breast tumours are benign or malignant (binary target).
 
